@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "m2wkVOY/Oak=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Loghi\\source\\repos\\Subdomainer\\Subdomainer\\Subdomainer.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Loghi\\.nuget\\packages\\dnsclient\\1.8.0\\dnsclient.1.8.0.nupkg.sha512"
+  ],
+  "logs": []
+}

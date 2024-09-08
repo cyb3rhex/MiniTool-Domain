@@ -1,0 +1,123 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "DnsClient/1.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/DnsClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/DnsClient.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DnsClient/1.8.0": {
+      "sha512": "RRwtaCXkXWsx0mmsReGDqCbRLtItfUbkRJlet1FpdciVhyMGKcPd57T1+8Jki9ojHlq9fntVhXQroOOgRak8DQ==",
+      "type": "package",
+      "path": "dnsclient/1.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "dnsclient.1.8.0.nupkg.sha512",
+        "dnsclient.nuspec",
+        "icon.png",
+        "lib/net472/DnsClient.dll",
+        "lib/net472/DnsClient.xml",
+        "lib/net6.0/DnsClient.dll",
+        "lib/net6.0/DnsClient.xml",
+        "lib/net8.0/DnsClient.dll",
+        "lib/net8.0/DnsClient.xml",
+        "lib/netstandard2.0/DnsClient.dll",
+        "lib/netstandard2.0/DnsClient.xml",
+        "lib/netstandard2.1/DnsClient.dll",
+        "lib/netstandard2.1/DnsClient.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "DnsClient >= 1.8.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Loghi\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Loghi\\source\\repos\\Subdomainer\\Subdomainer\\Subdomainer.vbproj",
+      "projectName": "Subdomainer",
+      "projectPath": "C:\\Users\\Loghi\\source\\repos\\Subdomainer\\Subdomainer\\Subdomainer.vbproj",
+      "packagesPath": "C:\\Users\\Loghi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Loghi\\source\\repos\\Subdomainer\\Subdomainer\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Loghi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "DnsClient": {
+            "target": "Package",
+            "version": "[1.8.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
