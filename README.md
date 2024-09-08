@@ -1,4 +1,5 @@
 # MiniTool-Domain
 .NET Subdomain Analyzer
 
-![Alt text]([[https://i.ibb.co/PwHtHFd/Screen.png](https://i.ibb.co/PwHtHFd/Screen.png)])
+![Screen](https://github.com/user-attachments/assets/cf25dde9-ee2e-4f00-804c-41fb7df6bcc7)
+
